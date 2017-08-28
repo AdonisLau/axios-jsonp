@@ -4,12 +4,16 @@
   "description": "A jsonp adapter for axios",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "jsonp",
     "axios"
   ],
   "author": "Adonis",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
 }
