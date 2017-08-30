@@ -2,7 +2,7 @@
   "name": "axios-jsonp",
   "version": "1.0.0",
   "description": "A jsonp adapter for axios",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js"
