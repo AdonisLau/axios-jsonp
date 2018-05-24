@@ -14,7 +14,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/AdonisLau/axios-jsonp.git"
-  },  
+  },
   "author": "Adonis",
   "license": "ISC",
   "devDependencies": {

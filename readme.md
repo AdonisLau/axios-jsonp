@@ -1,14 +1,14 @@
-# axios的jsonp适配器
+# A jsonp adapter for axios
 
-## 支持promise，支持cancel，用法与xhr一致
+## support promise，support cancel，same as xhr
 
-## 安装
+## install
 
 ```script
 npm install axios-jsonp
 ```
 
-## 用法
+## usage
 
 ```script
 let axios = require('axios');
