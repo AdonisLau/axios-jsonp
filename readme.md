@@ -14,10 +14,16 @@ npm install axios-jsonp
 let axios = require('axios');
 let jsonpAdapter = require('axios-jsonp');
 
-axios({
+const instance = axios.create()
+
+instance.interceptors.request.use(config => ({
+  ...config,
+  callbackParamName: 'c' // optional, 'callback' by default
+}), err => Promise.reject(err))
+
+instance.get({
     url: '/jsonp',
     adapter: jsonpAdapter,
-    callbackParamName: 'c' // optional, 'callback' by default
 }).then((res) => {
 
 });
