@@ -1,6 +1,6 @@
 {
   "name": "axios-jsonp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A jsonp adapter for axios",
   "main": "./lib/index.js",
   "scripts": {
