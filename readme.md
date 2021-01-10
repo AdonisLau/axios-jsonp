@@ -17,7 +17,8 @@ let jsonpAdapter = require('axios-jsonp');
 axios({
     url: '/jsonp',
     adapter: jsonpAdapter,
-    callbackParamName: 'c' // optional, 'callback' by default
+    callbackParamName: 'c', // optional, 'callback' by default
+    referrerPolicy: 'no-referrer' // optional
 }).then((res) => {
 
 });
